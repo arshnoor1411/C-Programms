@@ -1,0 +1,66 @@
+#include<stdio.h>
+int main()
+{
+	int num1,num2,num,arr[100]={0},narr[100]={0},newarr[100]={0},i,j,k;
+	scanf("%d",&num1);
+	scanf("%d",&num2);
+	for(i=0;i<num1;i++)
+	{
+		printf("arr[i]");
+		scanf("%d",&arr[i]);
+	}
+	for(j=0;j<num2;j++)
+	{
+		printf("narr[j]");
+		scanf("%d",&narr[j]);
+	}
+	while(i<num1 && j<num2)
+	{
+		if(arr[i]<narr[j])
+		{
+			newarr[k]=arr[i];
+			i++;
+			k++;
+		}
+		else
+		{
+			newarr[k]=narr[j];
+			j++;
+			k++;
+			
+		}
+	}
+	if(i==num1)
+	{
+		while(j<num2)
+		{
+			newarr[k]=arr[j];
+			k++;
+			j++;
+		}
+		else
+		{
+			newarr[k]=narr[i]
+			k++;
+			i++;
+		}
+	}
+	num=num1+num2;
+	while(i<num1)
+	{
+		newarr[k]=arr[i];
+        k++;
+        i++;
+	}
+	while(j<num2)
+	{
+		newarr[k]=arr[j];
+		k++;
+		j++;
+	}
+	for(i=0;i<num;i++)
+	{
+		printf("%d",newarr[i]);
+	}
+	return 0;
+}

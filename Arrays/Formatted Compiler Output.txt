@@ -1,0 +1,6 @@
+H:\PSTC\Array\prime.cpp	In function 'int main()':
+7	10	H:\PSTC\Array\prime.cpp	[Error] 'num' was not declared in this scope
+14	2	H:\PSTC\Array\prime.cpp	[Error] 'x' was not declared in this scope
+14	4	H:\PSTC\Array\prime.cpp	[Error] 'arr' was not declared in this scope
+H:\PSTC\Array\prime.cpp	At global scope:
+26	1	H:\PSTC\Array\prime.cpp	[Error] expected declaration before '}' token
